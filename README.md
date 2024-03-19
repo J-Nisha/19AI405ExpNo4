@@ -44,10 +44,9 @@
             a lower f than successor, skip this successor
             otherwise, add  the node to the open list
      end (for loop)
-  
-    e) push q on the closed list
-    end (while loop)
-    `````
+     e) push q on the closed list
+      end (while loop)
+     ````
 
 ## PROGRAM:
 `````
