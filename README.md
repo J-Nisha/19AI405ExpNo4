@@ -47,6 +47,7 @@
   
     e) push q on the closed list
     end (while loop)
+```````
 ###program:
 from collections import defaultdict
 H_dist ={}
@@ -147,7 +148,7 @@ print(H_dist)
 Graph_nodes=graph
 print(graph)
 aStarAlgo('S', 'G')
-
+```````
 
 
 
