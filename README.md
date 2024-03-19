@@ -48,7 +48,9 @@
     e) push q on the closed list
     end (while loop)
 `````
-#### program:
+
+
+###PROGRAM
 from collections import defaultdict
 H_dist ={}
 def aStarAlgo(start_node, stop_node):
