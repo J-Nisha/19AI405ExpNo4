@@ -5,7 +5,7 @@
 <p>To ImplementA * Search algorithm for a Graph using Python 3.</p>
 <H3>Algorithm:</H3>
 
-``````
+
 // A* Search Algorithm
 1.  Initialize the open list
 2.  Initialize the closed list
@@ -47,10 +47,10 @@
   
     e) push q on the closed list
     end (while loop)
-`````
-
 
 ###PROGRAM
+
+````
 from collections import defaultdict
 H_dist ={}
 def aStarAlgo(start_node, stop_node):
@@ -152,10 +152,13 @@ print(H_dist)
 Graph_nodes=graph
 print(graph)
 aStarAlgo('S', 'G')
-`````
+```````
 
 
-<hr>
+
+
+
+
 <h2>Sample Graph I</h2>
 <hr>
 ![image]![277151990-b1377c3f-011a-4c0f-a843-516842ae056a]
