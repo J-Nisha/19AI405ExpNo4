@@ -1,10 +1,10 @@
 <h1>ExpNo 4 : Implement A* search algorithm for a Graph</h1> 
 <h3>Name: Nisha.J
-<h3>Register Number:212223040133
+<h3>Register Number:212223040133</h3>
 <H3>Aim:</H3>
 <p>To ImplementA * Search algorithm for a Graph using Python 3.</p>
-<H3>Algorithm:</H3>
 
+## ALGORITHM:
 
 // A* Search Algorithm
 1.  Initialize the open list
@@ -47,10 +47,10 @@
   
     e) push q on the closed list
     end (while loop)
+    `````
 
-###PROGRAM
-
-````
+## PROGRAM:
+`````
 from collections import defaultdict
 H_dist ={}
 def aStarAlgo(start_node, stop_node):
@@ -60,6 +60,8 @@ def aStarAlgo(start_node, stop_node):
     parents = {}         # parents contains an adjacency map of all nodes
     #distance of starting node from itself is zero
     g[start_node] = 0
+`````
+`````
 #start_node is root node i.e it has no parent nodes
 #so start_node is set to its own parent node
 
@@ -114,6 +116,8 @@ while len(open_set) > 0:
     closed_set.add(n)
 print('Path does not exist!')
 return None
+`````
+`````
 
 
 #define fuction to return neighbor and its distance
@@ -153,21 +157,14 @@ Graph_nodes=graph
 print(graph)
 aStarAlgo('S', 'G')
 ```````
+## SAMPLE GRAPH I:
+
+![image](https://github.com/22008686/19AI405ExpNo4/assets/118916413/25326942-3034-4607-8da1-eb110ae5752a)
+
+## SAMPLE INPUT:
 
 
-
-
-
-
-<h2>Sample Graph I</h2>
-<hr>
-![image]![277151990-b1377c3f-011a-4c0f-a843-516842ae056a]
-(https://github.com/natsaravanan/19AI405FUNDAMENTALSOFARTIFICIALINTELLIGENCE/assets/87870499/b1377c3f-011a-4c0f-a843-516842ae056a)
-
-<hr>
-<h2>Sample Input</h2>
-<hr>
-10 14 <br>
+<10 14 <br>
 A B 6 <br>
 A F 3 <br>
 B D 2 <br>
