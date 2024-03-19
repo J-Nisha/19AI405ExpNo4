@@ -47,15 +47,8 @@
   
     e) push q on the closed list
     end (while loop)
-
-
-
-
-<hr>
-<h2>Sample Graph I</h2>
-<hr>
-`````
-###program:
+``````
+###pogram:
 from collections import defaultdict
 H_dist ={}
 def aStarAlgo(start_node, stop_node):
@@ -65,7 +58,7 @@ def aStarAlgo(start_node, stop_node):
     parents = {}         # parents contains an adjacency map of all nodes
     #distance of starting node from itself is zero
     g[start_node] = 0
-#start_node is root node i.e it has no parent nodes
+    #start_node is root node i.e it has no parent nodes
 #so start_node is set to its own parent node
 
 parents[start_node] = start_node
@@ -157,6 +150,18 @@ print(H_dist)
 Graph_nodes=graph
 print(graph)
 aStarAlgo('S', 'G')
+
+
+
+
+<hr>
+<h2>Sample Graph I</h2>
+<hr>
+
+
+                    
+
+    
 
 ![image](https://github.com/natsaravanan/19AI405FUNDAMENTALSOFARTIFICIALINTELLIGENCE/assets/87870499/b1377c3f-011a-4c0f-a843-516842ae056a)
 
