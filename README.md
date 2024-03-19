@@ -46,8 +46,7 @@
      end (for loop)
      e) push q on the closed list
       end (while loop)
- ````
-
+``````
 ## PROGRAM:
 `````
 from collections import defaultdict
