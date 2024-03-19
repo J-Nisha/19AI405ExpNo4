@@ -47,8 +47,7 @@
   
     e) push q on the closed list
     end (while loop)
-``````
-###pogram:
+###program:
 from collections import defaultdict
 H_dist ={}
 def aStarAlgo(start_node, stop_node):
@@ -58,7 +57,7 @@ def aStarAlgo(start_node, stop_node):
     parents = {}         # parents contains an adjacency map of all nodes
     #distance of starting node from itself is zero
     g[start_node] = 0
-    #start_node is root node i.e it has no parent nodes
+#start_node is root node i.e it has no parent nodes
 #so start_node is set to its own parent node
 
 parents[start_node] = start_node
@@ -112,8 +111,6 @@ while len(open_set) > 0:
     closed_set.add(n)
 print('Path does not exist!')
 return None
-
-
 #define fuction to return neighbor and its distance
 #from the passed node
 def get_neighbors(v):
