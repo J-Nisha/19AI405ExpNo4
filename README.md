@@ -5,7 +5,7 @@
 <p>To ImplementA * Search algorithm for a Graph using Python 3.</p>
 
 ## ALGORITHM:
-
+`````
 // A* Search Algorithm
 1.  Initialize the open list
 2.  Initialize the closed list
@@ -46,7 +46,7 @@
      end (for loop)
      e) push q on the closed list
       end (while loop)
-     ````
+ ````
 
 ## PROGRAM:
 `````
